@@ -1,0 +1,56 @@
+.personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 50px;
+
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.imagem {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(180, 78, 78, 0.3);
+    /*padding-top: 50px;*/
+
+}
+
+.detalhes {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(180, 78, 78, 0.3);
+}
+
+.nome {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--gray);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: var(--gray);
+}
+  
+.descricao {
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--gray);
+    line-height: 1.5;
+}

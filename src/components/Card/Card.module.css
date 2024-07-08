@@ -1,0 +1,25 @@
+.card {
+    width: 200px;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--secondary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+  
+.imagem {
+    width: 100%;
+    height: auto;
+}
+  
+.card h3 {
+    margin: 0.5rem 0;
+    color: var(--white);
+}
+  

@@ -1,0 +1,65 @@
+.imageContainer {
+    padding-top: 50px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.imageOverlay {
+    position: relative;
+}
+  
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      109deg,
+      rgba(10, 12, 16, 0.99) 15%,
+      rgba(10, 12, 16, 0.7) 50%,
+      rgba(10, 12, 16, 0.99) 85%
+    );
+    border-radius: 8px;
+}
+  
+.title {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+    z-index: 10;
+    font-size: 40px;
+}
+  
+.seriesData {
+    position: absolute;
+    bottom: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    color: white;
+    z-index: 10;
+    font-size: 30px;
+    font-weight: 100;
+}
+  
+.seriesData p {
+    margin: 0;
+}
+
+.seriesInfo {
+    margin-top: 50px;
+    font-size: 20px;
+}

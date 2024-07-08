@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0 100px;
+}
+
+.link {
+    text-decoration: none;
+}
